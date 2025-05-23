@@ -90,7 +90,7 @@
         }
         ?>
 
-        <form action="index.php" method="get" style="margin-top: 20px;">
+        <form action="index.html" method="get" style="margin-top: 20px;">
             <button type="submit">Volver a la página principal</button>
         </form><br>
 

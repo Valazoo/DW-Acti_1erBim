@@ -64,7 +64,7 @@ $usuario_id = isset($_POST['usuario_id']) ? $_POST['usuario_id'] : null;
             </table>
         <?php else: ?>
             <p>No hay inscripciones para este usuario.</p>
-            <form action="index.php" method="get" style="margin-top: 20px;">
+            <form action="index.html" method="get" style="margin-top: 20px;">
             <a href="inscripcion_curso.php">Registrarse a un curso.</a>
             </form>
         <?php endif;
@@ -72,7 +72,7 @@ $usuario_id = isset($_POST['usuario_id']) ? $_POST['usuario_id'] : null;
         $query->close();
         ?>
 
-        <form action="index.php" method="get" style="margin-top: 20px;">
+        <form action="index.html" method="get" style="margin-top: 20px;">
             <button type="submit">Volver a la página principal</button><br>
         </form>
 
